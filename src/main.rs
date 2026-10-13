@@ -11,5 +11,5 @@ fn main() -> Result<(), Box<dyn Error>> {
     let cli = Cli::parse();
     let entry = Entry::new(cli.task, cli.level, cli.source);
     println!("Done");
-    storage::save(entry)
+    storage::save(&entry)
 }
