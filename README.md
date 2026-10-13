@@ -11,7 +11,7 @@ tareas "task name" -l difficult -s source
 ```bash
 cargo build --release          # binario en target/release/tareas
 cargo install --path .         # lo copia a ~/.cargo/bin
-tareas "conectar proyector" -l baja -s uga
+logsday "conectar proyector" -l baja -s uga
 ```
 
 #### Todo
